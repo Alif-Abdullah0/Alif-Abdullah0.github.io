@@ -1,0 +1,33 @@
+/*
+Used for navbar: https://www.w3schools.com/css/css_navbar_horizontal.asp
+Used for centering: https://stackoverflow.com/questions/22642436/how-to-center-navigation-bar-items-css
+*/
+
+.ul-navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.li-navbar {
+    display: inline-block;
+}
+
+.li-navbar a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: #00FF41;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.background {
+    background-color: black;
+    color: #00FF41;
+    margin: 0;
+}
